@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import com.google.firebase.database.*
 import io.radar.sdk.Radar
-import io.radar.sdk.*
+import io.radar.sdk.RadarTrackingOptions
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
         Radar.initialize(this, "prj_test_pk_32ddbd2feb7c1266ab29d53d83cf635c6f04d477")
 
         button1.setOnClickListener {
-            Radar.startTracking(RadarTrackingOptions.CONTINUOUS)
+            Radar.startTracking(RadarTrackingOptions.EFFICIENT)
         }
 
         button2.setOnClickListener {
