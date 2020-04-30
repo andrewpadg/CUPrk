@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
-        // TODO - Start tracking when user is driving and confirm found spot through notif. Stop when opposite
+        // TODO - Start tracking when user is driving and confirm found spot through notification. Stop when opposite
 
         Radar.initialize(this, "prj_test_pk_32ddbd2feb7c1266ab29d53d83cf635c6f04d477")
 
