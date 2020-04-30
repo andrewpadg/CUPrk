@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "455715078732",
+    "firebase_url": "https://cuprk-v2.firebaseio.com",
+    "project_id": "cuprk-v2",
+    "storage_bucket": "cuprk-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455715078732:android:934c37ad0a7846788deae9",
+        "android_client_info": {
+          "package_name": "com.example.cuprkv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455715078732-8no2c02ksp0grjn4u0dmj6fm08avgd2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cuprkv2",
+            "certificate_hash": "96ac1ba29182736d577773c0835166a6675d2cf8"
+          }
+        },
+        {
+          "client_id": "455715078732-ei3vvj9cmc1bh1c47u501a2r5jg6cla1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq78X-hnUNXpZCJFMAK8fdcGya-IlXjl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455715078732-ei3vvj9cmc1bh1c47u501a2r5jg6cla1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
